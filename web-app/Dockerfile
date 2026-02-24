@@ -1,8 +1,7 @@
 # =========================================
 # Stage 1: Build the Vue.js Application
 # =========================================
-ARG NODE_VERSION=24.12.0-alpine
-
+ARG NODE_VERSION=24.12.0
 FROM node:${NODE_VERSION} AS builder
 
 WORKDIR /app
