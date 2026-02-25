@@ -1,5 +1,6 @@
 services:
   app:
+    container_name: "timely-web"
     build: .
     ports:
       - "8723:80"
